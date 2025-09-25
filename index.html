@@ -643,3 +643,4 @@
 <script>(function(){var catalogo=document.getElementById('catalogo');function go(){if(catalogo){catalogo.scrollIntoView({behavior:'smooth',block:'start'});}}document.querySelectorAll('.nav-cat').forEach(function(a){a.addEventListener('click',function(){var cat=a.getAttribute('data-cat');var chip=document.querySelector('.chip[data-cat="'+cat+'"]');if(chip){chip.click();}go();});});document.querySelectorAll('.chip').forEach(function(ch){ch.addEventListener('click',go);});var h=(location.hash||'').replace('#','').toLowerCase();if(['mujer','accesorios','calzado'].indexOf(h)!==-1){var chip2=document.querySelector('.chip[data-cat="'+h+'"]');if(chip2){chip2.click();go();}}})();</script>
 </body>
 </html>
+<!-- force deploy: 2025-09-25 -->
